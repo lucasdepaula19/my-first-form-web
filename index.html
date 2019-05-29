@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Filmes - A Origem</title>
+    <!-- Sempre utilizar para um bom funcionamento em dispositivos móveis-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/app.js"></script>
+
+</head>
+
+<body onload="">
+    <nav>
+        <ul>
+            <li><a href="">Início</a></li>
+            <li><a href="">filmes</a></li>
+            <li><a href="">fórum</a></li>
+            <li><a href="">Ajuda</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>A Origem</h1>
+        <article class="formtPrincipal">
+            <p>Título original: Inception</p>
+            <p>Data de lançamento: 6 de agosto de 2010 (2h 28min)</p>
+            <p>Direção: Christopher Nolan</p>
+            <p>Gêneros: Ficção científica, Suspense</p>
+            <p>Nacionalidades: EUA, Reino Unido</p>
+            <p>Classificação: 14 anos</p>
+            <h3>Elenco:</h3>
+            <dl>
+                <dt>Leonardo DiCaprio</dt>
+                <dd>(Cobb)</dd>
+                <dt>Marion Cotillard</dt>
+                <dd>(Mal)</dd>
+                <dt>Ellen Page</dt>
+                <dd>(Ariadne)</dd>
+            </dl>
+        </article>
+        <div class="formtVideo">
+            <iframe src="https://www.youtube.com/embed/HiixbtN-O24"></iframe>
+        </div>
+        <article class="formtSinopse">
+            <h3>Sinopse</h3>
+            <p>
+                Em um mundo onde é possível entrar na mente humana, Cobb (Leonardo DiCaprio) está entre os melhores
+                na arte de roubar segredos valiosos do inconsciente, durante o estado de sono. Além disto ele é um
+                fugitivo,
+                pois está impedido de retornar aos Estados Unidos devido à morte de Mal (Marion Cotillard).
+                Desesperado para rever seus filhos, Cobb aceita a ousada missão proposta por Saito (Ken Watanabe),
+                um empresário japonês: entrar na mente de Richard Fischer (Cillian Murphy), o herdeiro de um império
+                econômico,
+                e plantar a ideia de desmembrá-lo. Para realizar este feito ele conta com a ajuda do parceiro
+                Arthur (Joseph Gordon-Levitt), a inexperiente arquiteta de sonhos Ariadne (Ellen Page) e Eames (Tom
+                Hardy),
+                que consegue se disfarçar de forma precisa no mundo dos sonhos.
+            </p>
+        </article>
+    </section>
+    <section>
+        <h3>Galeria</h3>
+        <figure class="figureA">
+            <input type="radio" name="imagem" onclick="img_highlight()" id="i1" />
+            <label for="i1"><img src="http://br.web.img2.acsta.net/r_1920_1080/medias/nmedia/18/72/34/14/19439304.jpg"
+                    alt=""></label>
+            <input type="radio" name="imagem" onclick="img_highlight()" id="i2" />
+            <label for="i2"><img src="http://br.web.img3.acsta.net/r_1920_1080/medias/nmedia/18/72/34/14/19439303.jpg"
+                    alt=""></label>
+            <input type="radio" name="imagem" onclick="img_highlight()" id="i3" />
+            <label for="i3"><img src="http://br.web.img3.acsta.net/r_1920_1080/medias/nmedia/18/87/32/31/20028688.jpg"
+                    alt=""></label>
+            <!--button class="button_list1" onclick="button_board(this)"><img class="img_list" src="http://br.web.img2.acsta.net/r_1920_1080/medias/nmedia/18/72/34/14/19439304.jpg" alt="imagem_filme1"></button>
+            <button class="button_list1" onclick="button_board(this)"><img class="img_list" src="http://br.web.img3.acsta.net/r_1920_1080/medias/nmedia/18/72/34/14/19439303.jpg" alt="imagem_filme2"></button>
+            <button class="button_list1" onclick="button_board(this)"><img class="img_list" src="http://br.web.img3.acsta.net/r_1920_1080/medias/nmedia/18/87/32/31/20028688.jpg" alt="imagem_filme3"></button-->
+        </figure>
+        <figure class="figureB">
+            <img class="img_film" id="img_destaque"
+                src="http://br.web.img3.acsta.net/r_1920_1080/medias/nmedia/18/87/32/31/20028688.jpg"
+                alt="imagem_filme">
+            <!-- <img class="img_film" src=imgteste alt="imagem_filme"> -->
+        </figure>
+    </section>
+
+    <Footer>
+        <p>Este site usa cookies para assegurar a performance de nossos serviços. <a
+                href="http://www.adorocinema.com/servicos/politica-privacidade/">Leia
+                nossa política de privacidade</a> </p>
+    </Footer>
+</body>
+
+</html>
